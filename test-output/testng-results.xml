@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="135038" started-at="2020-06-06T19:00:58Z" finished-at="2020-06-06T19:03:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="135038" started-at="2020-06-06T19:00:58Z" finished-at="2020-06-06T19:03:13Z">
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@4883b407]" name="setup" is-config="true" duration-ms="32841" started-at="2020-06-06T19:01:00Z" finished-at="2020-06-06T19:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateCreateNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@4883b407]" name="validateCreateNewContactTest" duration-ms="7583" started-at="2020-06-06T19:01:33Z" data-provider="getCRMTestData" finished-at="2020-06-06T19:01:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rajat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Raheja]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Amazon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContactTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@4883b407]" name="setup" is-config="true" duration-ms="35530" started-at="2020-06-06T19:01:40Z" finished-at="2020-06-06T19:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateCreateNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@4883b407]" name="validateCreateNewContactTest" duration-ms="10034" started-at="2020-06-06T19:02:16Z" data-provider="getCRMTestData" finished-at="2020-06-06T19:02:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kiran]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Thakur]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Cognizant]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContactTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@4883b407]" name="setup" is-config="true" duration-ms="40357" started-at="2020-06-06T19:02:26Z" finished-at="2020-06-06T19:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateCreateNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@4883b407]" name="validateCreateNewContactTest" duration-ms="6767" started-at="2020-06-06T19:03:06Z" data-provider="getCRMTestData" finished-at="2020-06-06T19:03:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mrs.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shweta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContactTest -->
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
