@@ -2,17 +2,17 @@
 <testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="5156" started-at="2020-06-06T23:20:44Z" finished-at="2020-06-06T23:20:49Z">
+  <suite name="Command line suite" duration-ms="11055" started-at="2020-06-07T17:57:21Z" finished-at="2020-06-07T17:57:32Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="5156" started-at="2020-06-06T23:20:44Z" finished-at="2020-06-06T23:20:49Z">
+    <test name="Command line test" duration-ms="11055" started-at="2020-06-07T17:57:21Z" finished-at="2020-06-07T17:57:32Z">
       <class name="com.crm.qa.testcases.HomePageTest">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.crm.qa.testcases.HomePageTest@2ef9b8bc]" name="setup" is-config="true" duration-ms="623" started-at="2020-06-06T23:20:48Z" finished-at="2020-06-06T23:20:48Z">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.crm.qa.testcases.HomePageTest@2ef9b8bc]" name="setup" is-config="true" duration-ms="651" started-at="2020-06-07T17:57:30Z" finished-at="2020-06-07T17:57:31Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[unknown error: cannot find Chrome binary
   (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 53 milliseconds
+Command duration or timeout: 52 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RICHA-PC', ip: '192.168.29.57', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: driver.version: ChromeDriver]]>
@@ -20,7 +20,7 @@ Driver info: driver.version: ChromeDriver]]>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
   (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 53 milliseconds
+Command duration or timeout: 52 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RICHA-PC', ip: '192.168.29.57', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: driver.version: ChromeDriver
@@ -98,12 +98,12 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="verifyHomePageTitleTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@2ef9b8bc]" name="verifyHomePageTitleTest" duration-ms="0" started-at="2020-06-06T23:20:48Z" finished-at="2020-06-06T23:20:48Z">
+        <test-method status="SKIP" signature="verifyHomePageTitleTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@2ef9b8bc]" name="verifyHomePageTitleTest" duration-ms="0" started-at="2020-06-07T17:57:31Z" finished-at="2020-06-07T17:57:31Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[unknown error: cannot find Chrome binary
   (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 53 milliseconds
+Command duration or timeout: 52 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RICHA-PC', ip: '192.168.29.57', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: driver.version: ChromeDriver]]>
@@ -111,7 +111,7 @@ Driver info: driver.version: ChromeDriver]]>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
   (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 53 milliseconds
+Command duration or timeout: 52 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RICHA-PC', ip: '192.168.29.57', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: driver.version: ChromeDriver
@@ -189,18 +189,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@2ef9b8bc]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-06T23:20:48Z" finished-at="2020-06-06T23:20:48Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@2ef9b8bc]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-07T17:57:31Z" finished-at="2020-06-07T17:57:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testcases.HomePageTest -->
       <class name="com.crm.qa.testcases.ContactsPageTest">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@5315b42e]" name="setup" is-config="true" duration-ms="3782" started-at="2020-06-06T23:20:44Z" finished-at="2020-06-06T23:20:48Z">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@5315b42e]" name="setup" is-config="true" duration-ms="9614" started-at="2020-06-07T17:57:21Z" finished-at="2020-06-07T17:57:30Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[unknown error: cannot find Chrome binary
   (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 384 milliseconds
+Command duration or timeout: 564 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RICHA-PC', ip: '192.168.29.57', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: driver.version: ChromeDriver]]>
@@ -208,7 +208,7 @@ Driver info: driver.version: ChromeDriver]]>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
   (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 384 milliseconds
+Command duration or timeout: 564 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RICHA-PC', ip: '192.168.29.57', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: driver.version: ChromeDriver
@@ -286,12 +286,12 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="verifyContactsPageLabel()[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@5315b42e]" name="verifyContactsPageLabel" duration-ms="0" started-at="2020-06-06T23:20:48Z" finished-at="2020-06-06T23:20:48Z">
+        <test-method status="SKIP" signature="verifyContactsPageLabel()[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@5315b42e]" name="verifyContactsPageLabel" duration-ms="0" started-at="2020-06-07T17:57:30Z" finished-at="2020-06-07T17:57:30Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[unknown error: cannot find Chrome binary
   (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 384 milliseconds
+Command duration or timeout: 564 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RICHA-PC', ip: '192.168.29.57', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: driver.version: ChromeDriver]]>
@@ -299,7 +299,7 @@ Driver info: driver.version: ChromeDriver]]>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
   (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 384 milliseconds
+Command duration or timeout: 564 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RICHA-PC', ip: '192.168.29.57', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: driver.version: ChromeDriver
@@ -377,18 +377,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactsPageLabel -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@5315b42e]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-06T23:20:48Z" finished-at="2020-06-06T23:20:48Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@5315b42e]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-07T17:57:30Z" finished-at="2020-06-07T17:57:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
       <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5d624da6]" name="setup" is-config="true" duration-ms="632" started-at="2020-06-06T23:20:48Z" finished-at="2020-06-06T23:20:49Z">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5d624da6]" name="setup" is-config="true" duration-ms="639" started-at="2020-06-07T17:57:31Z" finished-at="2020-06-07T17:57:32Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[unknown error: cannot find Chrome binary
   (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
+Command duration or timeout: 38 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RICHA-PC', ip: '192.168.29.57', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: driver.version: ChromeDriver]]>
@@ -396,7 +396,7 @@ Driver info: driver.version: ChromeDriver]]>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
   (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
+Command duration or timeout: 38 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RICHA-PC', ip: '192.168.29.57', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: driver.version: ChromeDriver
@@ -474,12 +474,12 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@5d624da6]" name="loginPageTitleTest" duration-ms="0" started-at="2020-06-06T23:20:49Z" finished-at="2020-06-06T23:20:49Z">
+        <test-method status="SKIP" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@5d624da6]" name="loginPageTitleTest" duration-ms="0" started-at="2020-06-07T17:57:32Z" finished-at="2020-06-07T17:57:32Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[unknown error: cannot find Chrome binary
   (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
+Command duration or timeout: 38 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RICHA-PC', ip: '192.168.29.57', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: driver.version: ChromeDriver]]>
@@ -487,7 +487,7 @@ Driver info: driver.version: ChromeDriver]]>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
   (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
+Command duration or timeout: 38 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RICHA-PC', ip: '192.168.29.57', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: driver.version: ChromeDriver
@@ -565,7 +565,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5d624da6]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-06T23:20:49Z" finished-at="2020-06-06T23:20:49Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5d624da6]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-07T17:57:32Z" finished-at="2020-06-07T17:57:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
