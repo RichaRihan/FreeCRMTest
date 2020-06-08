@@ -35,10 +35,10 @@ public class TestBase {
 		
 		String browserName = prop.getProperty("browser");
 		if(browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver","C:\\Users\\Richa\\eclipse-workspace\\FreeCRMTest\\Drivers\\chromedriver.exe");
-			ChromeOptions chromeOptions = new ChromeOptions();
-			chromeOptions.addArguments("--headless");
-			driver = new ChromeDriver(chromeOptions);
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\Richa\\eclipse-workspace\\FreeCRMTest\\DriverNew\\chromedriver.exe");
+		//	ChromeOptions chromeOptions = new ChromeOptions();
+		//	chromeOptions.setBinary("/FreeCRMTest/DriverNew/chromedriver.exe");
+			driver = new ChromeDriver();
 		}
 		
 		else if(browserName.equals("firefox")) {
