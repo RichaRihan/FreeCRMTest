@@ -40,18 +40,18 @@ public class ContactsPageTest extends TestBase{
 		contactsPage=homePage.clickContactsLink();
 	}
 	
-	@Test(priority=1)
+	@Test
 	public void verifyContactsPageLabel() {
 		Assert.assertTrue(contactsPage.verifyContactsLabel(),"Contacts label is missing on the page");
 		
 	}
 	
-	@Test(priority=2)
+	@Test
 	public void selectSingleContactsTest() {
 		contactsPage.selectContactsByName("New Account");
 	}
 	
-	@Test(priority=3)
+	@Test
 	public void selectMultipleContactsTest() {
 		contactsPage.selectContactsByName("New Account");
 		contactsPage.selectContactsByName("Anil Sharma");
@@ -63,7 +63,7 @@ public class ContactsPageTest extends TestBase{
 		return data;
 	}
 	
-	@Test(priority=4 , dataProvider="getCRMTestData")
+	@Test(dataProvider="getCRMTestData")
 	public void validateCreateNewContactTest(String title, String firstName, String lastName, String company) {
 		homePage.clickNewContactLink();
 		contactsPage.createNewContact(title,firstName,lastName,company);

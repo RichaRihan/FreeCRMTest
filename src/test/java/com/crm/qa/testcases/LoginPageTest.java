@@ -26,19 +26,19 @@ public class LoginPageTest extends TestBase{
 		loginPage=new LoginPage();
 	}
 	
-	@Test(priority=1)
+	@Test
 	public void loginPageTitleTest() {
 		String title=loginPage.validateLoginPageTitle();
 		Assert.assertEquals(title, "CRMPRO - CRM software for customer relationship management, sales, and support.");
 	}
 	
-	@Test(priority=2)
+	@Test
 	public void crmLogoImageTest() {
 		boolean flag=loginPage.validateCRMImage();
 		Assert.assertTrue(flag);
 	}
 	
-	@Test(priority=3)
+	@Test
 	public void loginTest() {
 		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 	}

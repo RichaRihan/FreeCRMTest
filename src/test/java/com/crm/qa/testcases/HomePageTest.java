@@ -34,19 +34,19 @@ public class HomePageTest extends TestBase{
 	}
 
 	
-	@Test(priority=1)
+	@Test
 	public void verifyHomePageTitleTest() {
 		String homePageTitle=homePage.verifyHomePageTitle();
 		Assert.assertEquals(homePageTitle, "CRMPRO", "Home page title not matched");
 	}
 	
-	@Test(priority=2)
+	@Test
 	public void verifyUserNameTest() {
 		testUtil.switchToFrame();
 		Assert.assertTrue(homePage.verifyUserName());	
 	}
 	
-	@Test(priority=3)
+	@Test
 	public void verifyContactsLinkTest() {
 		testUtil.switchToFrame();
 		contactsPage = homePage.clickContactsLink();
