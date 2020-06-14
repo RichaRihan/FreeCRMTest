@@ -40,18 +40,18 @@ public class ContactsPageTest extends TestBase{
 		contactsPage=homePage.clickContactsLink();
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void verifyContactsPageLabel() {
 		Assert.assertTrue(contactsPage.verifyContactsLabel(),"Contacts label is missing on the page");
 		
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void selectSingleContactsTest() {
 		contactsPage.selectContactsByName("New Account");
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void selectMultipleContactsTest() {
 		contactsPage.selectContactsByName("New Account");
 		contactsPage.selectContactsByName("Anil Sharma");
@@ -64,7 +64,7 @@ public class ContactsPageTest extends TestBase{
 	}
 	
 	@Test(dataProvider="getCRMTestData")
-	public void validateCreateNewContactTest(String title, String firstName, String lastName, String company) {
+	public void validateCreateNewContactTest(String title, String firstName, String lastName, String company) throws InterruptedException {
 		homePage.clickNewContactLink();
 		contactsPage.createNewContact(title,firstName,lastName,company);
 	}
