@@ -30,6 +30,9 @@ public class HomePage extends TestBase{
 	@FindBy(xpath = "//a[contains(text(),'New Contact')]")
 	WebElement newContactLink;
 	
+	@FindBy(xpath="//a[@title='Messages']")
+	WebElement messagesLink;
+	
 	public String verifyHomePageTitle() {
 		return driver.getTitle();
 	}
@@ -75,5 +78,12 @@ public class HomePage extends TestBase{
 		return new CalendarPage();
 		
 	}
+	
+	public MessageBoardPage clickMessagesLink() {
+		messagesLink.click();
+		return new MessageBoardPage();
+	}
+	
+	
 
 }

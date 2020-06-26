@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="69994" started-at="2020-06-14T13:39:28Z" finished-at="2020-06-14T13:40:38Z">
+  <suite name="Default suite" duration-ms="58708" started-at="2020-06-26T16:47:50Z" finished-at="2020-06-26T16:48:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="69994" started-at="2020-06-14T13:39:28Z" finished-at="2020-06-14T13:40:38Z">
-      <class name="com.crm.qa.testcases.CalendarPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.CalendarPageTest@7cd62f43]" name="setup" is-config="true" duration-ms="39998" started-at="2020-06-14T13:39:28Z" finished-at="2020-06-14T13:40:08Z">
+    <test name="Default test" duration-ms="58708" started-at="2020-06-26T16:47:50Z" finished-at="2020-06-26T16:48:48Z">
+      <class name="com.crm.qa.testcases.MessagePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.MessagePageTest@7cd62f43]" name="setup" is-config="true" duration-ms="46400" started-at="2020-06-26T16:47:50Z" finished-at="2020-06-26T16:48:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="createEvent()[pri:0, instance:com.crm.qa.testcases.CalendarPageTest@7cd62f43]" name="createEvent" duration-ms="29875" started-at="2020-06-14T13:40:08Z" finished-at="2020-06-14T13:40:38Z">
+        <test-method status="PASS" signature="createMessage()[pri:0, instance:com.crm.qa.testcases.MessagePageTest@7cd62f43]" name="createMessage" duration-ms="12214" started-at="2020-06-26T16:48:36Z" finished-at="2020-06-26T16:48:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createEvent -->
-      </class> <!-- com.crm.qa.testcases.CalendarPageTest -->
+        </test-method> <!-- createMessage -->
+      </class> <!-- com.crm.qa.testcases.MessagePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
