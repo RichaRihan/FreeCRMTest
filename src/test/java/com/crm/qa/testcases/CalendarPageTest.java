@@ -3,6 +3,7 @@ package com.crm.qa.testcases;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.crm.qa.base.TestBase;
@@ -19,12 +20,13 @@ public class CalendarPageTest extends TestBase {
 	HomePage homePage;
 	CalendarPage calendarPage;
 	EventPage eventPage;;
-	TestUtil testUtil;
-	String day="25";
-	String month="July";
-	String year="2021";
-	String time="10:00AM";
-	String eventTitle="New event for "+day+month+year+"";
+	TestUtil testUtil;	
+//	String day="25";
+//	String month="July";
+//	String year="2021";
+//	String time="10:00AM";
+//	String eventTitle="New event for "+day+month+year+"";
+	String sheetName="Events";
 
 	public CalendarPageTest() {
 		super();
@@ -40,12 +42,18 @@ public class CalendarPageTest extends TestBase {
 		testUtil.switchToFrame();
 	}
 	
-	@Test
-	public void createEvent() throws InterruptedException {
+	@DataProvider
+	public Object getEventDetails() {
+		Object[][] data=TestUtil.getTestData(sheetName);
+		return data; 
+	}
+	
+	@Test(dataProvider="getEventDetails")
+	public void createEvent(String day, String month, String year, String time) throws InterruptedException {
 		homePage.selectDate(day, month, year);
 		calendarPage = new CalendarPage();
 		eventPage=calendarPage.selectTime(time);
-		String message=eventPage.addEvent(eventTitle);
+		String message=eventPage.addEvent("New event for"+day+month+year+"");
 		Assert.assertEquals(message, "Email notifications were sent to all attendees.");
 		
 	}
