@@ -1,3 +1,6 @@
-com\crm\qa\testcases\HomePageTest.class
 com\crm\qa\testcases\ContactsPageTest.class
+com\crm\qa\testcases\CalendarPageTest.class
+com\crm\qa\testcases\HomePageTest.class
 com\crm\qa\testcases\LoginPageTest.class
+com\crm\qa\testcases\MessagePageTest.class
+com\crm\qa\testcases\MessagePageTestParameters.class

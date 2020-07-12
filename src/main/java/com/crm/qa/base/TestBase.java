@@ -19,8 +19,9 @@ public class TestBase {
 	public TestBase(){
 		try {
 			prop=new Properties();
-			FileInputStream ip=new FileInputStream("C:\\Users\\Richa\\eclipse-workspace\\FreeCRMTest\\src\\main\\java\\com\\crm"
-					+"\\qa\\config\\config.properties");
+
+			FileInputStream ip=new FileInputStream(System.getProperty("user.dir")+"/src/main/java/com/crm/qa/config/config.properties");
+
 			prop.load(ip);
 		}
 		catch(FileNotFoundException e) {
@@ -32,17 +33,17 @@ public class TestBase {
 	}
 	
 	public static void initialization() {
-		
+
 		String browserName = prop.getProperty("browser");
+		//String dir=System.getProperty("user.dir");
 		if(browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver","C:\\Users\\Richa\\eclipse-workspace\\FreeCRMTest\\DriverNew\\chromedriver.exe");
-		//	ChromeOptions chromeOptions = new ChromeOptions();
-		//	chromeOptions.setBinary("/FreeCRMTest/DriverNew/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/src/main/resources/DriverNew/chromedriver.exe");
+
 			driver = new ChromeDriver();
 		}
-		
+
 		else if(browserName.equals("firefox")) {
-			
+
 		}
 	
 		driver.manage().window().maximize();
